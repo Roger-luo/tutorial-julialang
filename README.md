@@ -25,7 +25,13 @@ You can access the presentation here: [Julia: A Fresh New Approach to Numerical 
 
 ### Download Demos
 
-First, clone this repository or download this zip file [master.zip](https://github.com/Roger-luo/tutorial-julialang/archive/master.zip) to your laptop.
+First, clone this repository:
+
+```shell
+shell> git clone git@github.com:Roger-luo/tutorial-julialang.git
+```
+
+download this zip file [master.zip](https://github.com/Roger-luo/tutorial-julialang/archive/master.zip) to your laptop.
 
 ### Install Julia
 
