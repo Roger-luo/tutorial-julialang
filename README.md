@@ -6,20 +6,20 @@ You can access the presentation here: [Julia: A Fresh New Approach to Numerical 
 
 ### Basics
 
-- Type system
-- Function
-- Multiple Dispatch
-- Meta Programming
-- Parallel Computing
-- Plot
+- [x] Type system
+- [x] Function
+- [x] Multiple Dispatch
+- [ ] Meta Programming
+- [ ] Parallel Computing
+- [ ] Plot
 
 ### Advance
 
-- Package Development
-- Performance Tips
-- Compilation and LLVM native
-- Using GPU through native Julia language
-- Quantum Many-body Toolbox
+- [ ] Package Development
+- [ ] Performance Tips
+- [ ] Compilation and LLVM native
+- [ ] Using GPU through native Julia language
+- [ ] Quantum Many-body Toolbox
 
 ## Preparations
 
