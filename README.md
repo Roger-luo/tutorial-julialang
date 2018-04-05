@@ -92,8 +92,10 @@ List of Recommended Packages:
 
 **GPU Programming** (GPU device required, NVIDIA card is recommended)
 
-- **CUArrays**: A Curious Cumulation of CUDA Cuisine
-- **CUDAnative**:  Julia support for native CUDA programming (need to build the compiler from source with llvm 3.9)
+*need to build the compiler from source with llvm 3.9*
+
+- **CuArrays**: A Curious Cumulation of CUDA Cuisine
+- **CUDAnative**:  Julia support for native CUDA programming
 
 ## Author
 
