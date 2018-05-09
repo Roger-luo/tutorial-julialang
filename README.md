@@ -4,12 +4,20 @@ You can access the presentation here: [Julia: A Fresh New Approach to Numerical 
 
 ## Contents
 
+- [Setup Your Julia Environment]()
+- [Tutorial Contents](/tutorial.md)
+- [Tool Chain for Physicists](/tool-chain-for-physicists.md)
+- [Useful Blog Posts](/posts.md)
+- [Notebooks](/notebooks/README.md)
+- [Demos](/codes/README.md)
+
+## Tutorial
 ### Basics
 
 - [x] Type system
 - [x] Function
 - [x] Multiple Dispatch
-- [ ] Meta Programming
+- [x] Meta Programming
 - [ ] Parallel Computing
 - [ ] Plot
 
@@ -17,9 +25,29 @@ You can access the presentation here: [Julia: A Fresh New Approach to Numerical 
 
 - [ ] Package Development
 - [ ] Performance Tips
-- [ ] Compilation and LLVM native
-- [ ] Using GPU through native Julia language
+- [x] Using GPU through native Julia language
 - [ ] Quantum Many-body Toolbox
+
+## Tool Chain for Physicists
+
+- Builtin BLAS and Linear Algebra Algorithm (move to `stdlib/LinearAlgebra` in v1.0)
+- Builtin SparseArray (move to `stdlib/SparseArrays` in v1.0)
+- Native GPGPU, GPU BLAS and GPU algorithm with [CUDAnative.jl](https://github.com/JuliaGPU/CUDAnative.jl)
+- [JuMP](https://github.com/JuliaOpt/JuMP.jl)
+- Virtual Environment by [Pkg3.jl](https://github.com/JuliaLang/Pkg3.jl)
+- Compatibility accorss versions through [Compat.jl](https://github.com/JuliaLang/Compat.jl)
+- Serialization by HDF5 with [JLD2.jl](https://github.com/simonster/JLD2.jl)
+- Symbolic Computation with [Symata](https://github.com/jlapeyre/Symata.jl)
+- Use Tensorflow with [Tensorflow.jl](https://github.com/malmaud/TensorFlow.jl)
+- Pattern Matching with [Match.jl](https://github.com/kmsquire/Match.jl)
+- Source Code transformation based autodiff with [AutoDiffSource.jl](https://github.com/gaika/AutoDiffSource.jl)
+- REPL enhancements with [OhMyREPL.jl](https://github.com/KristofferC/OhMyREPL.jl)
+- binding numpy, julia array, C++ array and enable lazy evaluation with [xtensor](https://github.com/QuantStack/xtensor)
+- General Lazy evaluation and functional programming utilities with [Lazy.jl](https://github.com/MikeInnes/Lazy.jl)
+- Deep Learning with MXNet official binding [MXNet.jl](https://github.com/dmlc/MXNet.jl)
+- C++ Foreign Function Interface (FFI) and REPL with [Cxx.jl](https://github.com/Keno/Cxx.jl)
+- MCMC for Bayesian analysis with [Mamba.jl](https://github.com/brian-j-smith/Mamba.jl)
+- Quantum optics and open quantum systems with [QuantumOptics.jl](https://github.com/qojulia/QuantumOptics.jl)
 
 ## Preparations
 
